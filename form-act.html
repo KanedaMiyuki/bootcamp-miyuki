@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Activity</title>
+</head>
+<body>
+  <form action="" method="get">
+    <table border="1">
+      <tr>
+        <td width="180px">Full Name *</td>
+        <td>
+            <input type="name" name="FirstName" id="firstname" placeholder="First Name"> 
+            <input type="name" name="LastName" id="lastname" placeholder="Last Name" required></td>
+      </tr>
+
+      <tr>
+        <td>University *</td>
+        <td><label for="university"></label><select name="university" id="university" required>
+            <option value="" hidden>Select University</option>
+            <option value="ABC">ABC University</option>
+            <option value="XYZ">XYZ University</option>
+            </select></td>
+      </tr>
+
+      <tr>
+        <td>If Other - Please Specify</td>
+        <td><label for="other"></label>
+          <input type="text" name="other" id="other" cols="15" rows="1" ></td>
+      </tr>
+
+      <tr>
+        <td>Faculty *</td>
+        <td><label for="faculty"></label>
+          <select name="faculty" id="faculty" required>
+            <option value="" hidden>Select Faculty</option>
+            <option value="English">English</option>
+            <option value="HTML&CSS">HTML&CSS</option>
+            <option value="PHP">PHP</option>
+            </select></td>
+      </tr>
+
+      <tr>
+        <td>If Other - Please Specify</td>
+        <td><label for="other"></label>
+          <input type="text" name="other" id="other" cols="15" rows="1" ></td>
+      </tr>
+
+      <tr>
+        <td>Academic year of PhD *</td>
+        <td><label for="academicyear"></label>
+          <select name="academicyear" id="academicyear" required>
+            <option value="" hidden>Select Year</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            </select></td>
+      </tr>
+
+      <tr>
+        <td>Where would you like to work?</td>
+        <td> <input type="checkbox" name="academia" value="academia" id="academia">
+          <label for="academia">Academia</label>
+          <br>
+          
+          <input type="checkbox" name="industry" value="industry" id="industry">
+          <label for="industry">Industry</label>
+          <br>
+    
+          <input type="checkbox" name="consultancy" value="consultancy" id="consultancy">
+          <label for="consultancy">Consultancy</label>
+          <br>
+    
+          <input type="checkbox" name="finance" value="finance" id="finance">
+          <label for="finance">Finance</label>
+          <br>
+    
+          <input type="checkbox" name="policy" value="policy" id="policy">
+          <label for="policy">Policy/Government/NGO</label></td>
+      </tr>
+
+      <tr>
+        <td>E-mail *</td>
+        <td> <input type="email" name="email" id="emai" placeholder="ex. xxx@gmail.com" required> <br> <input type="email" name="email" id="emai" placeholder="Confirm Email" required></td>
+      </tr>
+
+      <tr>
+        <td>Would you like to sign up to our newsletter?</td>
+        <td> <input type="radio" name="newsletter" value="yes" id="yes">
+          <label for="yes">Yes</label>
+          <br>
+    
+          <input type="radio" name="newsletter" value="alreadysignedup" id="alreadysignedup">
+          <label for="alreadysignedup">No, I already signed up.</label>
+          <br>
+    
+          <input type="radio" name="newsletter" value="no" id="no">
+          <label for="no">No</label></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Submit"></td>
+      </tr>
+
+
+    </table>
+  </form>
+
+</body>
+</html>

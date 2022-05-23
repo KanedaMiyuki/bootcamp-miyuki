@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway&display=swap');
+
+/* 
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+
+*/
+
+/* CSS Selectors */
+/* Universal Selector uning (*) call all the elements */
+
+/* * {
+  background-color: red;
+  color: yellow;
+} */
+
+
+/* Element Selector */
+
+h1 {
+  color: white;
+}
+
+span {
+  color: aqua;
+}
+
+h2 {
+ 
+  color: white;
+  background-color: darkmagenta;
+}
+
+p {
+  color:white;
+      
+}
+
+/* Class Selector */
+
+.titlelogo {
+  background-color: darkmagenta;
+  height: 50px;
+  width: 100%;
+}
+
+.container1 {
+  background-color: darkorchid;
+  height: 200px;
+  width: 100%;
+}
+
+/* id selector */
+.container2 {
+  background-color: lime;
+  height: 200px;
+  width: 100%;
+}
+
+.container-2 {
+  background-color: red;
+}
+
+#con3 {
+  background-color: lightseagreen;
+}
+
+/* and selector using (,) */
+h1,h2 {
+  color: black;
+}
+
+/* descendant selector using (space)
+  it is more specific
+   */
+
+#con3 h2 span {
+  color:orange;
+}
+
+/* CSS Color */
+/* rgb(red, green, blue) */
+.container4 {
+  background-color: rgb(237, 56, 17);
+}
+
+/* rgba(red,green,blue,alpha channel 
+    alpha channel = control the visibility/transparency
+      0 = not visible at all
+      .5 = 50% visible
+      1 = 100% visible
+    */
+.container5 {
+  background-color: rgba(237, 56, 17, .5);
+}    
+
+/* opacity 
+
+    0 = not visible at all
+      .5 = 50% visible
+      1 = 100% visible*/
+
+.container6 {
+  background-color: rgb(237, 56, 17);
+  opacity: .5;
+}
+
+/* hexcode */
+
+.container7 {
+  background-color: #FAF0D7;
+}
+
+/* CSS font-family */
+
+.container8 {
+  font-family: monospace;
+}
+
+/* CSS font import */
+.container9 h2 {
+  font-family: 'Oswald', sans-serif; 
+}
+
+.container9 p {
+  font-family: 'Raleway', sans-serif;
+  background-color: darkorchid;
+}
+
+/* font size
+    1.px = 16px = 100% =1em (default)
+    2.% = 100%
+    3.em = 1
+*/
+.container10 p {
+  font-size: 1em;
+  background-color: darkmagenta;
+}
+
+/* font weight
+    1.lighter
+    2.normal
+    3.bold
+
+    100 - 900
+     */
+.container11 {
+  background-color: darkorchid;
+}
+
+.container11 h2 {
+  font-weight: 900;
+}
+
+.container11 p {
+  font-weight: normal;
+}
+
+/* font style
+    1. normal
+    2. italic
+    3.oblique
+
+
+*/
+.container12 p {
+  font-style: italic;
+}
+
+/* text-transform
+    1.uppercase
+    2.lowercase
+    3.capitalize
+
+
+*/
+.container11 h2 {
+  text-transform: lowercase;
+}
+
+/* text-decoration
+
+1.overline
+2.underline
+3.line-through
+4.none
+*/
+.container11 p {
+  text-decoration: overline;
+}
+
+.container12 p {
+  background-color: black;
+}
+.container12 a {
+  text-decoration: none;
+  background-color: rgb(0, 179, 255);
+  color: white;
+}
+
+/* text-align
+    left (default)
+    center
+    right
+ */
+
+ #text-align {
+   text-align: center;
+ }
+
+ /* text-shadow
+ text-shadow (1st, 2rd ,3rd, 4th)
+      1st = horizontal (+ left to right)(-right to left)
+      2nd = vertical (- go up) (+ go down)
+      3rd = blurry
+      4st = color
+ */
+
+ #text-shadow {
+   text-shadow: 20px 20px 20px blue;
+   font-style: oblique;
+   font-size: xx-large;
+
+ }
+
+ /* text-indent
+    px, %, em
+
+ */
+.container8 {
+  background-color: darkorchid;
+}
+
+#text-indent {
+  text-indent: 50px;
+  font-size: xx-large;
+}
+
+#text-indent2 {
+  text-indent: 5%;
+}
+
+#text-indent3 {
+  text-indent: 5em;
+}
+
+/* letter-spacing*/
+#letter-spacing {
+  letter-spacing: 5px;
+}
+/* word-spacing*/
+#word-spacing {
+  word-spacing: 10px;
+}
+
+/* CSS list
+  unordered list
+    disc
+    circle
+    square
+    none
+  
+  ordered list
+    decimal
+    lower-alpha
+    upper-alpha
+    lower-roman
+    upper-roman  */
+
+.container13 ul li {
+  list-style: decimal ;
+  background-color: darkorchid;
+  list-style-position: inside;
+}  
+
+.container13 ul {
+  background-color: darkmagenta;
+  color: white;
+}

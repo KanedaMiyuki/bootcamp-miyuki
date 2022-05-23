@@ -1,0 +1,52 @@
+/* box model */
+
+.box1 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: yellow; */
+
+  /* shortcut for them */
+  border: 5px solid yellow;
+  
+}
+
+.box2 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  border: 5px solid yellow;
+  box-shadow: 10px 5px 5px black;
+  /* padding-left: 100px;
+  padding-top: 100px;
+  margin-left: 200px;
+  margin-top: 200px; */
+  
+}
+
+.border {
+  border: dashed aqua;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.border1 {
+  height: 100px;
+  width: 100px;
+  border: 5px solid red;
+  border-top: 5px dashed blue;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: auto;
+}
+
+/* Box Shadow */
+.boxshadow {
+  border: 5px solid black;
+  box-shadow: 10px 15px 10px red;
+  text-align: center;
+}
